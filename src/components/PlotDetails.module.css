@@ -1,0 +1,31 @@
+.image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+.image img {
+   box-shadow: 0px 0px 10px #7a7a7a; 
+   height: 400px;
+   width: auto;
+   
+}
+
+.image h3 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.image p {
+  font-size: 14px;
+  max-width: 60%;
+  
+}
+
